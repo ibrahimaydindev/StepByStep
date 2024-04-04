@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnHealth1"
+        android:icon="@drawable/love"
+        android:title="Sağlık"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/btnTrack1"
+        android:icon="@drawable/shoe"
+        android:title="Antrenman"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/btnProfile1"
+        android:icon="@drawable/person"
+        android:title="Profil"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        />
+
+</menu>
